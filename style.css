@@ -72,11 +72,14 @@ button:hover{
 
 
 
-@media screen and(max-width: 600px) {
+@media only screen and(max-width: 400px) {
 
-    nav{
-        width: 100%;
+
+    body {
+        font-size: 16px;
     }
 
-
+    button{
+        padding: 5px;
+    }
 }
